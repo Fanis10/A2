@@ -14,7 +14,7 @@
 		href="https://degorov.ru/1base/wp-content/themes/Goodini/assets/css/modules.css" />
 	<link rel="stylesheet" type="text/css"
 		href="https://degorov.ru/1base/wp-content/themes/Goodini/assets/css/anim.css" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
 	<link rel="stylesheet" href="css/style.min.css">
 	<title>Главная</title>
 </head>
@@ -185,105 +185,109 @@
 							<div class="services__tabs">
 								<div class="swiper mySwiper">
 									<div class="swiper-wrapper">
-										<div class="swiper-slide">
-											<div class="services__tab services__tab--active">
-												<i>
-													<img src="img/services-icon.svg" alt="">
-												</i>
-												<p>Дома</p>
-												<span class="line"></span>
-												<span class="line2"></span>
-											</div>
+										<div data-tab-path="1" class="swiper-slide services__tab services__tab--active">
+											<i>
+												<img src="img/services-icon.svg" alt="">
+											</i>
+											<p>Дома</p>
+											<span class="line"></span>
+											<span class="line2"></span>
 										</div>
-										<div class="swiper-slide">
-											<div class="services__tab">
-												<i>
-													<img src="img/services-icon2.svg" alt="">
-												</i>
-												<p>Магазины <br> и ТЦ</p>
-												<span class="line"></span>
-												<span class="line2"></span>
-											</div>
+										<div data-tab-path="2" class="swiper-slide services__tab">
+											<i>
+												<img src="img/services-icon2.svg" alt="">
+											</i>
+											<p>Магазины <br> и ТЦ</p>
+											<span class="line"></span>
+											<span class="line2"></span>
 										</div>
-										<div class="swiper-slide">
-											<div class="services__tab">
-												<i>
-													<img src="img/services-icon3.svg" alt="">
-												</i>
-												<p>Заводы, производства, <br> склады</p>
-												<span class="line"></span>
-												<span class="line2"></span>
-											</div>
+										<div data-tab-path="3" class="swiper-slide services__tab">
+											<i>
+												<img src="img/services-icon3.svg" alt="">
+											</i>
+											<p>Заводы, производства, <br> склады</p>
+											<span class="line"></span>
+											<span class="line2"></span>
 										</div>
-										<div class="swiper-slide">
-											<div class="services__tab">
-												<i>
-													<img src="img/services-icon4.svg" alt="">
-												</i>
-												<p>Общественные <br> места</p>
-												<span class="line"></span>
-												<span class="line2"></span>
-											</div>
+										<div data-tab-path="4" class="swiper-slide services__tab">
+											<i>
+												<img src="img/services-icon4.svg" alt="">
+											</i>
+											<p>Общественные <br> места</p>
+											<span class="line"></span>
+											<span class="line2"></span>
 										</div>
-										<div class="swiper-slide">
-											<div class="services__tab">
-												<i>
-													<img src="img/services-icon5.svg" alt="">
-												</i>
-												<p>Парковки, <br> стоянки</p>
-												<span class="line"></span>
-												<span class="line2"></span>
-											</div>
+										<div data-tab-path="5" class="swiper-slide services__tab">
+											<i>
+												<img src="img/services-icon5.svg" alt="">
+											</i>
+											<p>Парковки, <br> стоянки</p>
+											<span class="line"></span>
+											<span class="line2"></span>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="services__wrap">
-								<div class="services__left left-anim _anim-items anim-no-hide">
-									<ul>
-										<li>
-											<i>
-												<img src="img/services-icon6.svg" alt="">
-											</i>
-											<p>Выявление нарушителя в ночное время</p>
-										</li>
-										<li>
-											<i>
-												<img src="img/services-icon7.svg" alt="">
-											</i>
-											<p>Классификация типов объектов (человек, животное, т.д.)</p>
-										</li>
-										<li>
-											<i>
-												<img src="img/services-icon8.svg" alt="">
-											</i>
-											<p>Светозвуковая сирена для отпугивания нарушителя</p>
-										</li>
-										<li>
-											<i>
-												<img src="img/services-icon9.svg" alt="">
-											</i>
-											<p>Детектор вторжения  в зону, пересечение линии</p>
-										</li>
-										<li>
-											<i>
-												<img src="img/services-icon10.svg" alt="">
-											</i>
-											<p>Предотвращение попыток перелезть через ограждение</p>
-										</li>
-									</ul>
+							<div class="services__tabs-body">
+								<div data-content-path="1" class="services__wrap services__wrap--active">
+									<div class="services__left left-anim _anim-items anim-no-hide">
+										<ul>
+											<li>
+												<i>
+													<img src="img/services-icon6.svg" alt="">
+												</i>
+												<p>Выявление нарушителя в ночное время</p>
+											</li>
+											<li>
+												<i>
+													<img src="img/services-icon7.svg" alt="">
+												</i>
+												<p>Классификация типов объектов (человек, животное, т.д.)</p>
+											</li>
+											<li>
+												<i>
+													<img src="img/services-icon8.svg" alt="">
+												</i>
+												<p>Светозвуковая сирена для отпугивания нарушителя</p>
+											</li>
+											<li>
+												<i>
+													<img src="img/services-icon9.svg" alt="">
+												</i>
+												<p>Детектор вторжения  в зону, пересечение линии</p>
+											</li>
+											<li>
+												<i>
+													<img src="img/services-icon10.svg" alt="">
+												</i>
+												<p>Предотвращение попыток перелезть через ограждение</p>
+											</li>
+										</ul>
+									</div>
+									<div class="services__right right-anim _anim-items anim-no-hide">
+										<div class="services__img">
+											<img loading="lazy" src="img/services-img.webp" alt="">
+										</div>
+										<div class="services__img2">
+											<img loading="lazy" src="img/services-img2.webp" alt="">
+										</div>
+										<div class="rec">
+											<span></span>
+											rec
+										</div>
+									</div>
 								</div>
-								<div class="services__right right-anim _anim-items anim-no-hide">
-									<div class="services__img">
-										<img loading="lazy" src="img/services-img.webp" alt="">
-									</div>
-									<div class="services__img2">
-										<img loading="lazy" src="img/services-img2.webp" alt="">
-									</div>
-									<div class="rec">
-										<span></span>
-										rec
-									</div>
+								<div data-content-path="2" class="services__wrap">
+									2
+								</div>
+								<div data-content-path="3" class="services__wrap">
+									3
+								</div>
+								<div data-content-path="4" class="services__wrap">
+									4
+								</div>
+								<div data-content-path="5" class="services__wrap">
+									5
 								</div>
 							</div>
 							<div class="services__wrap2">
@@ -604,18 +608,6 @@
 							<div class="swiper-slide">
 								<img loading="lazy" src="img/partner-img2.webp" alt="">
 							</div>
-						</div>
-					</div>
-					<div class="info2__slider-nav">
-						<div class="swiper-button-prev">
-							<svg width="6" height="12" viewBox="0 0 6 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path d="M5 1L3.23703 2.74731C1.8311 4.14075 1.12813 4.83747 1.01989 5.68667C0.99337 5.89473 0.99337 6.10527 1.01989 6.31333C1.12813 7.16252 1.8311 7.85925 3.23703 9.25269L5 11" stroke="#FAFAFA" stroke-width="1.5" stroke-linecap="round"/>
-							</svg>
-						</div>
-						<div class="swiper-button-next">
-							<svg width="6" height="12" viewBox="0 0 6 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path d="M1 1L2.76297 2.74731C4.1689 4.14075 4.87187 4.83747 4.98011 5.68667C5.00663 5.89473 5.00663 6.10527 4.98011 6.31333C4.87187 7.16252 4.1689 7.85925 2.76297 9.25269L1 11" stroke="#FAFAFA" stroke-width="1.5" stroke-linecap="round"/>
-							</svg>
 						</div>
 					</div>
 				</div>
@@ -1473,7 +1465,7 @@
 
 	<script src="https://degorov.ru/1base/wp-content/themes/Goodini/assets/js/base.min.js"></script>
 <script src="https://degorov.ru/1base/wp-content/themes/Goodini/assets/js/validate.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
 <script src="js/main.min.js"></script>
 
 	<script>
